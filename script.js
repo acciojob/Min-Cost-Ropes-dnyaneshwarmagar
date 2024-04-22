@@ -25,6 +25,8 @@ function mincost(arr)
         // Re-sort the array
         arr.sort((a, b) => a - b);
 	}
+
+	return totalCost;
   
 }
 
